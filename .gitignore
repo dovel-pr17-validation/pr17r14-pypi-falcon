@@ -1,0 +1,70 @@
+# C extensions
+*.c
+*.so
+
+# Jython
+*$py.class
+
+# Build artifacts
+*.egg
+*.egg-info
+*.py[cod]
+.eggs
+.installed.cfg
+.mypy_cache
+build
+develop-eggs
+dist
+eggs
+lib
+lib64
+parts
+sdist
+var
+pip-wheel-metadata
+wheelhouse
+
+# Installer logs
+pip-log.txt
+
+# Test artifacts
+*.dat
+.cache
+.coverage*
+.ecosystem
+.tox
+.pytest_cache
+downloaded_files/
+geckodriver.log
+htmlcov
+nosetests.xml
+
+# ASGI tutorial
+!examples/asgilook/.coveragerc
+
+# Docs
+docs/_build
+dash
+
+# Translations
+*.mo
+
+# Idea
+.idea
+
+# System
+.DS_Store
+
+# VIM swap files
+.*.swp
+
+# VIM temp files
+*~
+
+# VSCode
+
+.vscode
+
+#py Environment
+/venv
+/env
